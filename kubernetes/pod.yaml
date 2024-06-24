@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: home-work-a
+  labels:
+    app: app-home-work-a-api
+    developer: pechydev
+spec:
+  containers:
+    - name: myapp
+      image: pechydev/home_work_a:1.0.0
